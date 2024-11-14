@@ -4,70 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amiso</title>
-    <!-- <link rel="stylesheet" href="./style.css"> -->
     <script src="https://kit.fontawesome.com/5fab74f879.js" crossorigin="anonymous"></script>
-   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">+
 </head>
 <body>
+
+
     
     <!-- navbar -->
-   <div style="background-color: #26c7f4;" class="flex justify-between p-6 ">
-        <h2 class=" text-3xl font-semibold" >Amiso</h2>
+    <div style="background-color: #26c7f4;" class="flex justify-between p-6 ">
+            <h2 class=" md:text-3xl text-2xl font-bold">Amiso</h2>
+            <ul class="hidden md:flex gap-12">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          
 
-        <ul class="flex gap-11">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#Gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-   </div>
+            
+    </div>
+
+   
+
+
 
    <!-- hero -->
-   <div id="home" class="relative">
+   <div id="home" class="md:relative top-0 ">
 
-        <img src="./images/imgs01.jpg" alt="">
+        <img class="flex flex-wrap" src="./images/imgs01.jpg" alt="">
 
-        <div class="absolute bottom-60 left-24 font-bold">
-            <h2 class="text-3xl ">A TRADITION OF</h2>
-            <h2 class="text-3xl">QUALITY CLEANING</h2>
-            <button type="button" class="text-gray-900 mt-10 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">Contact us</button>
+        <div class="absolute left-6 top-32 md:bottom-60 md:left-24 md:font-bold font-semibold">
+            <h2 class="md:text-4xl">A TRADITION OF</h2>
+            <h2 class="md:text-4xl">QUALITY CLEANING</h2>
+            <button type="button" class="text-gray-900 md:mt-10 mt-2 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg md:text-sm text-xs md:px-5 md:py-2.5 text-center px-2 py-1 me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">Contact us</button>
         </div>
        
    </div>
 
    <!-- categories -->
-
    <div id="about" style="background-color: #44d6ff;" class=" p-20 h-50vh flex justify-evenly">
 
     <div class=" bg-white border-none rounded-md h-[200px] m-4 p-6">
 
-        <div class="text-4xl text-center">
-            <i class="fa-solid fa-hand"></i>
+        <div class="text-4xl text-center p-6">
+            <i style="color: #0f24dc;" class="fa-solid fa-hand"></i>
         </div>
-        
-        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A sit non eaque harum sunt facilis sequi. Assumenda, tempora quas ex itaque aliquam debitis culpa maiores eligendi consectetur. Sint voluptate quaerat eveniet assumenda repellendus sed voluptatum </p>
+        <h1 class="font-bold text-blue-700 text-center">Professional Cleaning</h1>
+        <p class="text-center text-sm p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A sit non eaque harum sunt facilis sequi. Assumenda, tempora quas ex itaque aliquam debitis culpa maiores eligendi consectetur. Sint voluptate quaerat eveniet assumenda repellendus sed voluptatum </p>
     </div>
     <div class=" bg-white border-none rounded-md h-[200px] m-4 p-6">
-        <div class="text-4xl text-center">
-            <i class="fa-solid fa-brush"></i>
+        <div class="text-4xl text-center p-6">
+            <i style="color: #0f24dc;" class="fa-solid fa-brush"></i>
         </div>
-       
-        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A sit non eaque harum sunt facilis sequi. Assumenda, tempora quas ex itaque aliquam debitis culpa maiores eligendi consectetur. Sint voluptate quaerat eveniet assumenda repellendus sed voluptatum </p>
+        <h1 class="font-bold text-blue-700 text-center">Fast & Efficient </h1>
+        <p class="text-center text-sm p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A sit non eaque harum sunt facilis sequi. Assumenda, tempora quas ex itaque aliquam debitis culpa maiores eligendi consectetur. Sint voluptate quaerat eveniet assumenda repellendus sed voluptatum </p>
     </div>
     <div class=" bg-white border-none rounded-md h-[200px] m-4 p-6">
 
-        <div class="text-4xl text-center">
-            <i class="fa-solid fa-house"></i>
+        <div class="text-4xl text-center p-6">
+            <i style="color: #0f24dc;" class="fa-solid fa-house"></i>
         </div>
-        
-        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A sit non eaque harum sunt facilis sequi. Assumenda, tempora quas ex itaque aliquam debitis culpa maiores eligendi consectetur. Sint voluptate quaerat eveniet assumenda repellendus sed voluptatum </p>
+        <h1 class="font-bold text-blue-700 text-center">Renew your work</h1>
+        <p class="text-center text-sm p-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A sit non eaque harum sunt facilis sequi. Assumenda, tempora quas ex itaque aliquam debitis culpa maiores eligendi consectetur. Sint voluptate quaerat eveniet assumenda repellendus sed voluptatum </p>
     </div>
 
    </div>
-
-   <div style="background-color:#44d6ff ;" class="px-20 pb-20 flex justify-evenly" >
+   <div style="background-color: #44d6ff;" class="px-20 pb-20 flex justify-evenly" >
 
         <div class="w-1/2">
             <h2 class="text-2xl font-bold">A Clean House is a <br> Happy place</h2>
@@ -83,36 +87,39 @@
    </div>
 
 
-   <!-- Trust -->
+   <!--Tradition in Trust -->
 
-   <div id="blog" class="py-16 bg-white">
-    <div class="container mx-auto text-center">
-        <h2 class="text-4xl font-bold text-blue-700 mb-4">Tradition of Trust</h2>
-        <p class="text-gray-600 mb-12">
+   <div id="blog" class="py-20 bg-white">
+    <div class="container mx-auto text-center flex flex-col justify-center items-center">
+        <h2 class="font-medium ">Why Choose Us</h2>
+        <h2 class="text-4xl py-2 font-bold text-blue-700 mb-4">Tradition of Trust</h2>
+        <p class="text-gray-600 mb-12 w-1/2">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, consequuntur dicta nam consequatur praesentium delectus?
         </p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             
             <div class="bg-white shadow-lg rounded-lg p-8">
-                <i class="fa-solid fa-user-tie text-4xl text-blue-600 mb-4"></i>
+                <i class="fa-solid fa-user-tie text-4xl text-blue-700 mb-4"></i>
                 <h3 class="text-xl font-semibold text-blue-800 mb-2">Professional Team</h3>
-                <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, saepe.</p>
+                <p class="text-gray-600 text-sm ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, saepe.</p>
             </div>
             
             <div class="bg-white shadow-lg rounded-lg p-8">
-                <i class="fa-solid fa-phone text-4xl text-blue-600 mb-4"></i>
+                <i class="fa-solid fa-phone text-4xl text-blue-700 mb-4"></i>
                 <h3 class="text-xl font-semibold text-blue-800 mb-2">24/7 Services</h3>
-                <p class="text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, eius.</p>
+                <p class="text-gray-600 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, eius.</p>
             </div>
           
             <div class="bg-white shadow-lg rounded-lg p-8">
-                <i class="fa-solid fa-award text-4xl text-blue-600 mb-4"></i>
+                <i class="fa-solid fa-award text-4xl text-blue-700 mb-4"></i>
                 <h3 class="text-xl font-semibold text-blue-800 mb-2">Service Guarantee</h3>
-                <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum!</p>
+                <p class="text-gray-600 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, illum!</p>
             </div>
         </div>
     </div>
-    </div>
+   </div>
+
+
 
 
     <!-- cleaner -->
@@ -125,31 +132,82 @@
         </div>
     </div>
 
-    <!-- Service -->
-    <div class="py-16 bg-gray-200">
-        <div class="container mx-auto text-center">
+
+    <!-- Services -->
+    
+   <div class="py-44 px-10 bg-green-200 bg-cover bg-center" style="background-image: url(./images/clean.jpg);">
+    
+    <div class="flex justify-around items-center gap-12">
+        <div class="bg-white w-3/4 border-none rounded-sm  p-6">
+            <div class="text-4xl text-center p-6">
+                <i class="fa-solid fa-house"></i>
+            </div>
+            <h2 class="text-3xl text-center font-bold">House Cleaning</h2>
+            <p class="text-sm text-center p-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus atque doloremque accusamus cum repudiandae adipisci magnam quod quas sequi aliquam?</p>
+        </div>
+        <div class="bg-white w-3/4 border-none rounded-sm p-6" >
+            <div class="text-4xl text-center p-6">
+                <i class="fa-brands fa-windows"></i>
+            </div>
+            <h2 class="text-3xl text-center font-bold">Window Cleaning</h2>
+            <p class="text-sm text-center p-2 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus atque doloremque accusamus cum repudiandae adipisci magnam quod quas sequi aliquam?</p>
+        </div>
+        <div class="bg-white w-3/4 border-none rounded-sm p-6" >
+            <div class="text-4xl text-center p-6">
+                <i class="fa-solid fa-chair"></i>
+            </div>
+            <h2 class="text-3xl text-center font-bold">Office Cleaning</h2>
+            <p class="text-sm text-center p-2 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus atque doloremque accusamus cum repudiandae adipisci magnam quod quas sequi aliquam?</p>
+        </div>
+
+
+
+
+    </div>
+   </div>
+  
+
+    
+    
+
+    
+    
+
+
+
+    <!-- Team -->
+    <div style="background-color: #e1ecfe;" class="py-16">
+        <div class="container flex flex-col items-center mx-auto text-center">
             <!-- Section Header -->
-            <h2 class="text-lg text-green-500 font-medium">Meet Our</h2>
+            <h2 class="text-lg font-medium">Meet</h2>
             <h3 class="text-2xl md:text-3xl font-semibold text-blue-800 mb-4">Our Team</h3>
-            <p class="text-gray-600 mb-12">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, natus.
+            <p class="mb-6 w-1/2 text-center">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque illo nulla eius dignissimos suscipit minima quae quaerat nobis nesciunt libero.
             </p>
 
             <div class="grid grid-cols-1 sm:grid-cols-3 justify-items-center gap-8  p-6">
                 <div class="text-center">
-                    <img src="./images/imgs05.jpg" alt="Jones" class="w-48 h-48 object-cover rounded-lg">
-                    <h2 class="mt-4 text-2xl font-bold">Jones</h2>
-                    <p>House keeping</p>
+                    <img src="./images/imgs06.jpg" alt="Jones" class="object-cover rounded-lg">
+                    <div class="p-2 mt-1 shadow-lg">
+                        <h2 class="mt-4 text-2xl font-bold">Jones</h2>
+                        <p>House keeping</p>
+                    </div>
                 </div>
                 <div class="text-center">
-                    <img src="./images/imgs06.jpg" alt="Willams" class="w-48 h-48 object-cover rounded-lg">
-                    <h2 class="mt-4 text-2xl font-bold">Willams</h2>
-                    <p >Checking</p>
+                    <img src="./images/imgs05.jpg" alt="Willams" class=" object-cover rounded-lg">
+                    <div class="p-2 mt-1 shadow-lg">
+                        <h2 class="mt-4 text-2xl font-bold">Willams</h2>
+                        <p>Supervisor</p>
+                    </div>
+                    
                 </div>
                 <div class="text-center">
-                    <img src="./images/imgs07.jpg" alt="Sara" class="w-48 h-48 object-cover rounded-lg">
-                    <h2 class="mt-4 text-2xl font-bold">Sara</h2>
-                    <p>Cleaning</p>
+                    <img src="./images/imgs07.jpg" alt="Sara" class=" object-cover rounded-lg">
+                    <div class="p-2 mt-1 shadow-lg">
+                        <h2 class="mt-4 text-2xl font-bold">Sara</h2>
+                        <p>Cleaning</p>
+                    </div>
+                    
                 </div>
             </div>
             
@@ -159,7 +217,6 @@
 
 
     <!-- Footer -->
-
     <div id="contact" class="bg-black text-white pt-14">
         <div class="max-w-screen-xl mx-auto px-4 sm:px-6  text-white flex flex-wrap justify-center flex justify-between">
             <div class="p-5">
