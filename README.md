@@ -1,6 +1,6 @@
 # Asimo - A Quality Cleaning Service Website 🌟
 
-![Asimo](./)
+![Asimo](./amiso-thumbnail.jpg)
 
 Asimo is a responsive and user-friendly cleaning service website built with modern web technologies like HTML, CSS, and Tailwind CSS. 
 It delivers a sleek, visually appealing interface for showcasing services.
