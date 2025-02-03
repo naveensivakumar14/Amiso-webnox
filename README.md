@@ -1,4 +1,5 @@
-# Asimo - A Quality Cleaning Service Website 🌟
+# Asimo
+A Quality Cleaning Service Website 🌟
 
 ![Asimo](./amiso-thumbnail.jpg)
 
