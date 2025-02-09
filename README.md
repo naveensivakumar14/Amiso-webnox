@@ -13,5 +13,3 @@ Custom Styling: Styled using Tailwind CSS for clean and efficient design.
 
 Technologies Used 💻
 HTML, CSS, Tailwind CSS, Javascript.
-
-Thank you
